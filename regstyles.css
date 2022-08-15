@@ -2,9 +2,36 @@
 	margin:0;
 	padding:0;
 	}
-	.container{
+.container{
 	width:100%;
 	height:100vh;
 	font-family:sans-serif;
 	background: rgba(187,187,245);
 	color:#fff;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	}
+.card{
+width:350px;
+height:500px;
+box-shadow:0 0 40px 20px rgba(0,0,0,0.26);
+}
+.innerbox{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.card-front, .card-back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image: url(b.png);
+	padding:55px;
+	box-sizing: border-box;
+	backface-visibility:hidden;
+}
+.card-back{
+transform:rotatey(100deg);
