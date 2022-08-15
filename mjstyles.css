@@ -20,7 +20,7 @@ form{
 text-align:center;
 }
 input{
-background:linear-gradient(90deg,#38D68E,#FFC045);
+background:linear-gradient(#36454F);
 border: 0px solid transparent;
 }
 button{
