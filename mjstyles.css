@@ -1,5 +1,6 @@
 body{
 background-image:url(../michael/a.jpg);
+  background-repeat:no-repeat;
 }
 h1{
 margin-top:0px;
