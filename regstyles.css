@@ -40,7 +40,7 @@
 	backface-visibility:hidden;
 	transform:rotateY(180deg); 
 }
- .card:hover{
+ .card:{
  transform:rotateY(180deg);
  }
  .card h2{
@@ -109,4 +109,5 @@ span{
  	text-decoration:none;
  	text-align:center;
  	font-size:13px;
+	display:block;
  }
